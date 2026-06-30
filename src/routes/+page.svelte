@@ -13,6 +13,5 @@
 <ul>
 	{#each await getProducts(search) as product (product.id)}
 		<li><a href="/product/{product.id}">{product.title}</a></li>
-		''
 	{/each}
 </ul>
