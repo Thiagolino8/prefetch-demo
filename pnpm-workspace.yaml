@@ -1,0 +1,11 @@
+supportedArchitectures:
+  os:
+    - current
+    - wasip1-threads
+    - any
+  cpu:
+    - current
+    - wasm32
+  libc:
+    - current
+    - any
